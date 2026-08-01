@@ -1,0 +1,18 @@
+# SevOne (Turbonomic)
+
+> SevOne and Turbonomic are enterprise IT operations products now part of IBM's AIOps portfolio. IBM SevOne Network Performance Management (NPM) provides real-time, multi-vendor network monitoring, flow analytics, and capacity planning. IBM Turbonomic is an application resource management (ARM) platform that automates resourcing, scaling, and placement across on-premises, cloud, and Kubernetes. Both products expose REST APIs, but those APIs are hosted on the customer's own appliance/deployment rather than on a public developer portal — there is no public base URL or published OpenAPI to catalog.
+
+## Products
+- [IBM Turbonomic](https://www.ibm.com/products/turbonomic): Application resource management (ARM) and automated cloud/Kubernetes optimization.
+- [IBM SevOne](https://www.ibm.com/products/sevone): Network performance management (NPM), flow analytics, and capacity planning.
+
+## Documentation
+- [IBM SevOne NPM Documentation](https://www.ibm.com/docs/en/sevone-npm): Product docs including the SevOne NMS API and SevOne Data Insight API (appliance-hosted).
+- [IBM Turbonomic Documentation](https://www.ibm.com/docs/en/tarm): Product docs including the Turbonomic REST API served from the appliance (e.g. the /vmturbo/rest path with a bundled Swagger UI).
+
+## Support
+- [IBM AIOps Community](https://community.ibm.com/community/user/aiops/communities/community-home?CommunityKey=turbonomic): Community and support forum.
+
+## Notes
+- REST APIs are deployment-hosted; the base URL is the customer's own appliance/instance, so no public baseURL or OpenAPI is published for cataloging.
+- No public first-party SDK packages, hosted MCP server, or public /.well-known discovery documents were found on the sevone.com or turbonomic.com domains (both redirect to IBM product pages).
